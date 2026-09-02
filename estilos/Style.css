@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid #000;
+    height: 10vh;
+}
+
+.inicio{
+    text-align: center;
+}
+
+body{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ef740c5a-5c00-4333-8b9b-e16b92b97864/dee1fc6-88593e8b-ff82-4ac0-8d56-f1a7600cdca3.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9lZjc0MGM1YS01YzAwLTQzMzMtOGI5Yi1lMTZiOTJiOTc4NjQvZGVlMWZjNi04ODU5M2U4Yi1mZjgyLTRhYzAtOGQ1Ni1mMWE3NjAwY2RjYTMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ou9fvC676BKh2yTew9kyGU2KYtZjLaqjaISfccOhYAg");
+   background-size: cover;       
+   background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+h2, p{
+    color: white;
+    
+}
+
+h1{
+    color: white;
+    background-color: black;
+}
+
+.items{
+    color: black;
+    background-color: black;
+}
+.contenedor{
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+img{
+   display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
