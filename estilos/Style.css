@@ -1,9 +1,15 @@
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: solid 1px blue;
     height: 10vh;
+    padding: 0 20px; /* Opcional: para que no peguen contra los bordes de la pantalla */
+}
+
+header div h1 {
+    display: flex;
+    gap: 20px; /* Espacio entre Vandal, Phantom y Operator */
 }
 
 .inicio{
@@ -11,9 +17,9 @@ header{
 }
 
 body{
-    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ef740c5a-5c00-4333-8b9b-e16b92b97864/dee1fc6-88593e8b-ff82-4ac0-8d56-f1a7600cdca3.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9lZjc0MGM1YS01YzAwLTQzMzMtOGI5Yi1lMTZiOTJiOTc4NjQvZGVlMWZjNi04ODU5M2U4Yi1mZjgyLTRhYzAtOGQ1Ni1mMWE3NjAwY2RjYTMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ou9fvC676BKh2yTew9kyGU2KYtZjLaqjaISfccOhYAg");
-   background-size: cover;       
-   background-repeat: no-repeat;
+    background-image: url("https://images.hdqwalls.com/wallpapers/yoru-valorant-ez.jpg");
+    background-size: cover;       
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
 }
@@ -25,7 +31,7 @@ h2, p{
 
 h1{
     color: white;
-    background-color: blue;
+    background-color: transparent;
 }
 
 .items{
@@ -44,4 +50,12 @@ img{
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap; 
+}
+.menu {
+    display: flex;
+    gap: 20px; 
+}
+.menu a {
+    text-decoration: none;
+    color: white; 
 }
