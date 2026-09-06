@@ -8,23 +8,97 @@
     <link rel="stylesheet" href="/estilos/Style.css">
 </head>
 <body>
-    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-        <main class="hero-principal"></main>
+
+    <nav class="navbar is-dark" role="navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="index.html">
                 <h1 class="title is-4 has-text-white mb-0">ValoSpark</h1>
             </a>
         </div>
-
-        <div class="navbar-menu">
+        <div class="navbar-menu is-active">
             <div class="navbar-end">
                 <a class="navbar-item" href="vandal.html">Vandal</a>
                 <a class="navbar-item" href="phantom.html">Phantom</a>
                 <a class="navbar-item" href="operator.html">Operator</a>
                 <a class="navbar-item" href="packs.html">Pack de skins</a>
-                </div>
+            </div>
         </div>
-    </nav>  
+    </nav>
 
+    <!-- contenido de interfaz -->
+    <main class="section">
+        <div class="container">
+            <div class="mb-4">
+                <h1 class="title has-text-white">Bienvenidos a ValoSpark</h1>
+                <p class="subtitle has-text-light">Armas y skins de todos los estilos</p>
+            </div>
+
+            <!-- anuncio de pack nuevo -->
+            <div class="columns is-centered" style="margin-top: 100px;">
+                <div class="column is-6-desktop is-8-tablet">
+                    <div class="box tarjeta-arma has-text-centered p-4">
+                        <!-- anuncio de aviso -->
+                        <span class="tag is-danger is-medium mb-3" style="font-weight: bold; background-color: #ff4655; color: white;">¡Nuevo pack agregado!</span>
+                        <!-- titulo del pack -->
+                        <h3 class="title is-4 has-text-white mb-3">Colección Exclusiva</h3>
+                        <div class="image is-16by9 mb-4" style="overflow: hidden; border-radius: 6px;">
+                            <img src="https://wiki.playvalorant.com/en-us/images/Bundle_Kuronami_V26.png?a0caa" alt="Pack Destacado" style="object-fit: cover;">
+                        </div>
+                        <!-- Botón para ir a todos los packs -->
+                        <a href="Packs.html" class="button is-fullwidth" style="background-color: #00d8d6; color: #111; font-weight: bold; border: none;">Ver detalles del pack</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- noticias -->
+            <div style="margin-top: 80px;">
+                <h2 class="title is-4 has-text-white mb-4">Noticias de actualización</h2>
+                
+                <!-- publicacion (Tomás) -->
+                <article class="media box tarjeta-arma mb-4">
+                    <div class="media-right">
+                        <button class="delete"></button>
+                    </div>
+                    <figure class="media-left">
+                        <p class="image is-64x64">
+                            <img src="https://i.pinimg.com/originals/4e/7b/e2/4e7be291fa15c76926e9644f3b8d970f.jpg" style="border-radius: 50%;">
+                        </p>
+                    </figure>
+                    <div class="media-content">
+                        <div class="content has-text-white">
+                            <p>
+                                <strong class="has-text-white">Tomás Gallegos</strong> 
+                                <small class="has-text-grey-light">@tomásgallegos • 31m</small>
+                                <br>
+                                Tienda actualmente en mantención, organizando cambios de skin y de precios.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- publicacion (Cristobal) -->
+                <article class="media box tarjeta-arma">
+                    <div class="media-right">
+                        <button class="delete"></button>
+                    </div>
+                    <figure class="media-left">
+                        <p class="image is-64x64">
+                            <img src="https://i.pinimg.com/736x/65/05/38/650538cda4ad540925bf054167d99fc5.jpg" style="border-radius: 50%;">
+                        </p>
+                    </figure>
+                    <div class="media-content">
+                        <div class="content has-text-white">
+                            <p>
+                                <strong class="has-text-white">Cristóbal Zurita</strong> 
+                                <small class="has-text-grey-light">@cristóbalzurita • 24 hrs</small>
+                                <br>
+                                Acaban de filtrar la nueva colección de armas para la rotación de mañana, ¡está increíble!
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

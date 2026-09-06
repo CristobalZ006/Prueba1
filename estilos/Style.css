@@ -20,6 +20,9 @@ body{
     background-image: url("https://images.hdqwalls.com/wallpapers/yoru-valorant-ez.jpg");
     background-size: cover;       
     background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed; 
+    min-height: 100vh;
     margin: 0;
     padding: 0;
 }
