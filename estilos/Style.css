@@ -4,12 +4,12 @@ header {
     justify-content: space-between;
     border-bottom: solid 1px blue;
     height: 10vh;
-    padding: 0 20px; /* Opcional: para que no peguen contra los bordes de la pantalla */
+    padding: 20px; 
 }
 
 header div h1 {
     display: flex;
-    gap: 20px; /* Espacio entre Vandal, Phantom y Operator */
+    gap: 20px;
 }
 
 .inicio{
