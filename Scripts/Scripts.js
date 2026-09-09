@@ -1,5 +1,5 @@
 let botonesPreordenar = document.querySelectorAll('.btn-Pre-ordenar');
-let botonesComprar = document.querySelectorAll('.btn-Comprar');
+let botonesAñadirCarrito = document.querySelectorAll('.btn-añadir-carrito');
 let botonesComprarPack = document.querySelectorAll('.btn-comprar-pack');
 
 function procesarPreorden(evento) {
@@ -9,12 +9,12 @@ function procesarPreorden(evento) {
     alert("Pre-ordenado: " + titulo + " \nTe avisaremos cuando este disponible.");
 }
 
-function procesarCompra(evento) {
+function procesarAñadirCarrito(evento) {
     let tarjeta = evento.target.closest('.card-content');
     let titulo = tarjeta.querySelector('.title').innerText;
     let precio = tarjeta.querySelector('.subtitle').innerText;
-    
-    alert("Has comprado: " + titulo + " \nCosto: " + precio);
+
+    alert("Añadido al carrito: " + titulo + " \nCosto: " + precio);
 }
 
 function procesarCompraPack(evento) {
@@ -28,8 +28,8 @@ botonesPreordenar.forEach(function(boton) {
     boton.addEventListener('click', procesarPreorden);
 });
 
-botonesComprar.forEach(function(boton) {
-    boton.addEventListener('click', procesarCompra);
+botonesAñadirCarrito.forEach(function(boton) {
+    boton.addEventListener('click', procesarAñadirCarrito);
 });
 
 botonesComprarPack.forEach(function(boton) {
