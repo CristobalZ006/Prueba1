@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ValoSpark</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-    <link rel="stylesheet" href="../estilos/style.css"> 
+    <link rel="stylesheet" href="../estilos/style.css">
 </head>
 <body>
-     <nav class="navbar is-dark" role="navigation">
+
+    <nav class="navbar is-dark" role="navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="../index.html">
                 <h1 class="title is-4 has-text-white mb-0">Carrito de compras</h1>
@@ -25,5 +26,46 @@
             </div>
         </div>
     </nav>
+
+    <section class="section">
+        <div class="container">
+            
+            <div class="mb-6">
+                <h2 class="title is-3 has-text-white">Arsenal Seleccionado</h2>
+                <p class="subtitle has-text-grey-light">Revisa las skins que vas a llevar</p>
+            </div>
+
+            <div id="contenedor-carrito" class="columns is-multiline">
+                
+            </div>
+            <div class="box mt-5" style="background-color: rgba(31, 35, 38, 0.8); border: 1px solid rgba(255, 255, 255, 0.1);">
+                <h3 class="title is-5 has-text-white">Datos de cuenta</h3>
+                
+                <div class="field">
+                    <label class="label has-text-white">Riot ID</label>
+                    <div class="control">
+                        <input id="input-riot" class="input" type="text" placeholder="Ejemplo: Tomas#LAS">
+                    </div>
+                    <p id="error-riot" class="help is-danger is-hidden">Falta ingresar tu Riot ID.</p>
+                </div>
+
+                <div class="field">
+                    <label class="label has-text-white">Correo Electronico</label>
+                    <div class="control">
+                        <input id="input-correo" class="input" type="email" placeholder="correo@ejemplo.com">
+                    </div>
+                    <p id="error-correo" class="help is-danger is-hidden">Falta ingresar tu correo.</p>
+                </div>
+            </div>
+
+            <div class="mt-6 buttons">
+                <button id="btn-vaciar" class="button is-danger is-outlined">Vaciar carrito</button>
+                <button id="btn-pagar" class="button is-primary">Proceder al pago</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="../Scripts/scripts.js"></script>
 </body>
 </html>
