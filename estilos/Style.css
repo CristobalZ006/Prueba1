@@ -62,3 +62,28 @@ img{
     text-decoration: none;
     color: white; 
 }
+@media screen and (max-width: 300px) {
+    .section {
+        padding: 1.5rem 0.75rem !important;
+    }
+    
+    .title {
+        font-size: 1.25rem !important;
+    }
+    
+    .subtitle {
+        font-size: 0.9rem !important;
+    }
+    
+    .tarjeta-arma {
+        padding: 1rem !important;
+    }
+
+    .tarjeta-arma .title {
+        font-size: 1.1rem !important;
+    }
+
+    .navbar-brand .title {
+        font-size: 1.2rem !important;
+    }
+}
